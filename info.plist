@@ -104,7 +104,7 @@
 				<integer>0</integer>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist='https://raw.githubusercontent.com/giovannicoppola/alfred-audible/main/source/info.plist'
+readonly remote_info_plist='https://raw.githubusercontent.com/giovannicoppola/get-markdown-link/main/info.plist'
 readonly workflow_url='https://github.com/giovannicoppola/get-markdown-link'
 readonly download_type='github_release'
 readonly frequency_check='15'
@@ -377,7 +377,7 @@ var myFile = $.getenv('myFilePath');
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>1100</integer>
+			<integer>1035</integer>
 			<key>ypos</key>
 			<integer>240</integer>
 		</dict>
