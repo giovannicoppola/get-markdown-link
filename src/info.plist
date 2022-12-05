@@ -330,7 +330,14 @@ var myFile = $.getenv('myFilePath');
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string># get-markdown-link
+File Action to get a file's Markdown link to include in Obsidian
+
+# Usage
+- select a file either in Finder or Alfred 
+- launch the File actions
+- select `get markdown link`
+- enter the text you want associated to the link</string>
 	<key>uidata</key>
 	<dict>
 		<key>337C03A5-3834-4778-9AAA-6918F7A1C484</key>
@@ -338,37 +345,37 @@ var myFile = $.getenv('myFilePath');
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>245</integer>
+			<real>245</real>
 		</dict>
 		<key>43029F1C-32B5-4361-885E-C88E8999D4D4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>345</integer>
+			<real>345</real>
 			<key>ypos</key>
-			<integer>245</integer>
+			<real>245</real>
 		</dict>
 		<key>76E998DE-B088-42D1-98C8-D788A157AB6B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<real>240</real>
 			<key>ypos</key>
-			<integer>275</integer>
+			<real>275</real>
 		</dict>
 		<key>AEE940FC-3714-44C1-8DBE-29040C8FE252</key>
 		<dict>
 			<key>xpos</key>
-			<integer>845</integer>
+			<real>845</real>
 			<key>ypos</key>
-			<integer>240</integer>
+			<real>240</real>
 		</dict>
 		<key>E4E134FA-60F1-4D0E-BF06-6D3CC579861F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>515</integer>
+			<real>515</real>
 			<key>ypos</key>
-			<integer>245</integer>
+			<real>245</real>
 		</dict>
 		<key>E7D31C38-EFCD-4360-A2E3-8802117E8C87</key>
 		<dict>
@@ -377,24 +384,26 @@ var myFile = $.getenv('myFilePath');
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>1035</integer>
+			<real>1035</real>
 			<key>ypos</key>
-			<integer>240</integer>
+			<real>240</real>
 		</dict>
 		<key>F6CB0339-C729-4131-87CE-50646BC0E719</key>
 		<dict>
 			<key>note</key>
 			<string>replace newline with one space</string>
 			<key>xpos</key>
-			<integer>725</integer>
+			<real>725</real>
 			<key>ypos</key>
-			<integer>270</integer>
+			<real>270</real>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.1</string>
+	<string>0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/giovannicoppola/get-markdown-link</string>
 </dict>
